@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap-a1.html</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <style>
+      .row > div {
+        border: 1px solid black;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row bg-danger p-2">
+        <div class="col-lg-1 col-md-1 col-sm-1 bg-light"></div>
+        <div
+          class="col-lg-1 offset-lg-10 col-md-1 offset-md-10 col-sm-1 offset-sm-10 bg-light"
+        ></div>
+      </div>
+      <br />
+      <div class="row bg-warning p-2">
+        <div class="col-lg-1 col-md-2 bg-light"></div>
+        <div class="col-lg-1 offset-lg-5 col-md-2 offset-md-3 bg-light"></div>
+        <div class="col-lg-1 offset-lg-4 col-md-2 offset-md-3 bg-light"></div>
+      </div>
+      <br />
+      <div class="row bg-secondary p-2">
+        <div class="col-lg-2 col-md-2 bg-light"></div>
+        <div class="col-lg-6 col-md-6 bg-light"></div>
+        <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 bg-light"></div>
+      </div>
+    </div>
+  </body>
+</html>
